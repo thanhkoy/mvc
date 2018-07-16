@@ -9,7 +9,7 @@ error_reporting(E_ALL);
 $site_path = realpath(dirname(__FILE__));
 define('__SITE_PATH', $site_path);
 
-define('__BASE_URL', 'http://localhost:8888/mvc');
+define('__BASE_URL', 'http://localhost/mvc');
 
 /*** include the init.php file ***/
 include 'includes/init.php';

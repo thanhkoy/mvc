@@ -13,7 +13,8 @@
             foreach ($ph as $value) {
                 ?>
                 <tr>
-                    <td><a href="<?php echo __BASE_URL . "/rel?id={$value['ph_id']}";?>"><?php echo $value['ph_hoten']; ?></a>
+<!--                    <td><a href="--><?php //echo __BASE_URL . "/rel?id={$value['ph_id']}";?><!--">--><?php //echo $value['ph_hoten']; ?><!--</a>-->
+                    <td><a href=""><?php echo $value['ph_hoten']; ?></a>
                     </td>
                     <td><p><?php echo $value['ph_cmnd']; ?></p></td>
                 </tr>

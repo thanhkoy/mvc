@@ -13,7 +13,7 @@
  include __SITE_PATH . '/application/' . 'template.class.php';
 
  /*** auto load model classes ***/
-    function __autoload($class_name) {
+    function mvc_autoload($class_name) {
     $filename = strtolower($class_name) . '.class.php';
     $file = __SITE_PATH . '/model/' . $filename;
 
@@ -23,6 +23,7 @@
     }
   include ($file);
 }
+spl_autoload_register('mvc_autoload');
 
  /*** a new registry object ***/
  $registry = new registry;

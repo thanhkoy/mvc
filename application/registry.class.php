@@ -39,8 +39,6 @@ Class Registry
     {
         return $this->vars[$index];
     }
-
-
 }
 
 ?>

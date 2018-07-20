@@ -122,8 +122,6 @@ class router
         /*** set the file path ***/
         $this->file = $this->path . '/' . $this->controller . 'Controller.php';
     }
-
-
 }
 
 ?>

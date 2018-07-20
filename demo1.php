@@ -1,13 +1,20 @@
 <?php
-$a = 1;
 
-switch ($a){
-    case 1:
-        $a = $a + 1;
-        break;
-    default:
-        $a = $a + 2;
+class className
+{
+    var $var_name;
+
+    function __construct()
+    {
+        //code
+    }
+
+    function functionName($param)
+    {
+        //code
+    }
 }
 
-echo "ket qua la: " . $a;
+$obj_name = new className();
+$obj_name->functionName('');
 ?>

@@ -1,1 +1,3 @@
-Math.random();
+$(function () {
+    // jQuery methods go here...
+});
